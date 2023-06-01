@@ -42,5 +42,3 @@ Contributions to this repository are welcome. If you find any issues or have sug
 ## License
 
 This repository is licensed under the MIT License. See the `LICENSE` file for more details.
-
-Feel free to customize the README file according to your specific repository details and requirements.
