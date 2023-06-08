@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import itertools
-import os
+
 from multiprocessing import Pool
 from bandit import Bandit
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     
     #hyperparameters
     Deltas = [1e-1]
-    Epsilons = [0.1, 1.0] #10**(np.linspace(-5, 5,11))
+    Epsilons = [0.1, 0.5, 1.0] #10**(np.linspace(-5, 5,11))
     combinations = list(itertools.product(Epsilons, Deltas))
     num_simulations = 10 #number of simulations for monte-carlo estimation
     num_workers = 4 #32
